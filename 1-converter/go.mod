@@ -1,3 +1,3 @@
-module 1-converter
+module converter
 
 go 1.25.4
