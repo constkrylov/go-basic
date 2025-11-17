@@ -12,13 +12,13 @@ func getUserInput() (fromCurrency string, toCurrency string, amount float64) {
 	fmt.Scanln(&fromCurrency)
 	fmt.Println("Введите целевую валюту:")
 	fmt.Scanln(&toCurrency)
-	fmt.Println("Введите количество:")
+	fmt.Println("Введите сумму:")
 	fmt.Scanln(&amount)
 	return fromCurrency, toCurrency, amount
 }
 
 func convertCurrency(fromCurrency string, toCurrency string, amount float64) float64 {
-	return 0.0
+	return amount
 }
 
 func main() {
